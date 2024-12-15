@@ -50,7 +50,7 @@ First, you may use `git` command to clone our project to your local computer.
 Follow these steps to set up the environment and install the required dependencies:
 ```bash
 conda env create -f environment.yml LSTM
-conda activate lstm
+conda activate LSTM
 ```
 
 ---
