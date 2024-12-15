@@ -94,6 +94,17 @@ Replace `XXX` with your trained **best weights file** `.ckpt`.💪
 
 ---
 
+## Replication of ours results
+To reproduce our results, you can try the following steps:
+```bash
+python main.py --eval Our_Best_model\lstm-epoch=24-val_loss=0.03.ckpt
+```
+For this project we are using the `PyTorch Lightning` framework, so we store information such as weights, optimiser state, etc. as `.ckpt` format files, and you can find the best model we have trained in the folder `Our_Best_model`.✊
+
+We also provide a `.pth` file to help those who are not using `PyTorch Lightning`. It can also be found in the `Our_Best_model` folder, and you can run `test_pth.py` to reproduce our results🤞.
+
+---
+
 ## Architecture Enhancements and Performance Improvements
 We made several critical modifications to the original LSTM model to achieve **significant performance gains**👏. The following summarizes our changes:
 1. **Added a Bidirectional LSTM**:
