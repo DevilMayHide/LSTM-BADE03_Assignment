@@ -1,0 +1,5 @@
+hidden_dim: 100
+input_dim: 28
+layer_dim: 1
+output_dim: 10
+seq_dim: 28

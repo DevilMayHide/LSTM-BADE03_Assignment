@@ -1,0 +1,6 @@
+dropout_rate: 0.2
+hidden_dim: 256
+input_dim: 28
+layer_dim: 2
+output_dim: 10
+seq_dim: 28
